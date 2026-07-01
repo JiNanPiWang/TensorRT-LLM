@@ -163,3 +163,7 @@ def _strip_contiguous(node):
 6. ✅ `eliminate_dead_code()` + `recompile()` —— 清理
 7. ✅ 传播 `meta["val"]` —— 下游 transform 依赖
 8. ✅ `TransformInfo(num_matches=cnt)` —— 汇报匹配数
+
+
+---
+**下一节：[`15 — 图节点工具`](../stage4-fusion/15-node-utils.md)**

@@ -51,3 +51,7 @@ DeepSeek V2/V3 使用 MLA，其中 KV 是低秩压缩的（latent 表示）。Ro
 - 融合时需要正确处理 MLA 的 latent → expanded → rope → attention 的链条
 
 详细内容在 `ATTENTION_DEVELOPER_GUIDE.md`。
+
+
+---
+**下一节：[`19 — KV Cache Transform`](../stage6-topics/19-kvcache-transform.md)**

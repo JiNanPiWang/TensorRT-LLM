@@ -115,3 +115,7 @@ torch.compile(self.model, dynamic=True)
 你的 fusion（Stage 4）发生在 **torch.compile 和 CUDA Graph 之前**：
 - Fusion 简化图结构 → torch.compile 更容易生成优质 kernel
 - Fusion 融合小 op → CUDA Graph 中更少的分段 → 更少的 graph pieces → 更低的开销
+
+
+---
+**下一节：[`18 — Attention 融合`](../stage6-topics/18-attention-fusion.md)**

@@ -152,3 +152,7 @@ self.forward_pass_callable = torch.compile(
 - **torch.compile** 在 `__init__` 中包裹模型，**CUDA Graph** 在 `warmup` 中 capture
 - `forward_pass_callable` 可以是：原始 HF 模型 / `torch.compile(model)` / AutoDeploy 编译后的 FX Graph
 - AutoDeploy 的核心价值：给 `forward_pass_callable` 提供比原始 HF 模型更高效的编译后图
+
+
+---
+**下一节：[`05 — CUDA Graph`](../stage1-pyexecutor/05-cuda-graph-runner.md)**

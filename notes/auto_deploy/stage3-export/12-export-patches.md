@@ -80,3 +80,7 @@ torch_export_to_gm(model, args, kwargs, patch_configs={"my_patch": {"enabled": T
 **因为** export patches 保证 torch.export 产出完整连续的计算图，**所以** pattern_matcher 和 post_load_fusion 阶段的 transform 才能在图上进行可靠的模式匹配和融合。
 
 如果图中有断点，跨断点的算子无法被匹配为一个 pattern，融合就会失败。Export patches 是模型融合的前置保障。
+
+
+---
+**下一节：[`13 — GEMM 融合核心`](../stage4-fusion/13-fusion.md)**

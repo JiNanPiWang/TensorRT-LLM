@@ -97,3 +97,7 @@ export 在 **meta device** 上运行（所有 tensor 只有 dtype + shape，没�
 - MoE 优化：trace 2 experts → 展开到全量，大幅加速
 - Export patches：16 个 patch 处理 torch.export 不支持的 corner case
 - Meta device：export 阶段不需要 GPU 内存
+
+
+---
+**下一节：[`12 — 图导出补丁系统`](../stage3-export/12-export-patches.md)**

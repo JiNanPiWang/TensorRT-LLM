@@ -103,3 +103,7 @@ fuse_fp8_moe:
 ```
 
 如果设为 true，融合时可以使用不同的 input_scale（但需要额外的 scale 处理逻辑）。
+
+
+---
+**下一节：[`14 — SiLU+Mul 融合模板`](../stage4-fusion/14-fuse-silu-mul.md)**

@@ -92,3 +92,7 @@ KVCacheManagerV2 只管理 **分配/释放/寻址**，不关心 attention 的计
 - KVCacheManagerV2 管理 block 的分配/释放/复用
 - Block table 是 attention kernel 的寻址基础
 - AutoDeploy 的 KV cache transform 负责在图层替换 attention 算子
+
+
+---
+**下一节：[`07 — Transform 管线总配置`](../stage2-pipeline/07-default-yaml.md)**

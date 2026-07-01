@@ -64,3 +64,7 @@ class DistConfig:
 ```
 
 AutoDeploy 的单源真相——所有分布式配置由此管理。`Mapping`（外部 API 需要）由 `DistConfig.to_mapping()` 派生。
+
+
+---
+**下一节：[`21 — MoE + MLIR 融合`](../stage6-topics/21-moe-mlir.md)**

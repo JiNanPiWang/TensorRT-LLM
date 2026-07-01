@@ -156,3 +156,7 @@ PyExecutor 有 3 个 `_executor_loop` 变体，选择逻辑在 `_start_executor_
 - 核心依赖：`Scheduler`（打包 batch）、`ModelEngine`（GPU forward）、`Sampler`（采样）、`KvCacheManagerV2`（KV cache）
 - ADExecutor 继承 PyExecutor，只覆盖模型加载部分（用编译图替代 eager forward），其他全部复用
 - 事件的 `execution_stream` 和 CUDA Graph 密切相关 —— CUDA Graph capture/replay 都在这个 stream 上进行
+
+
+---
+**下一节：[`04 — 模型执行引擎`](../stage1-pyexecutor/04-model-engine.md)**

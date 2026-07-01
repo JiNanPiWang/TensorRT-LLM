@@ -98,3 +98,7 @@ def _maybe_restore_from_cache(self, cm):
 - 每个 transform 是独立的、可替换的模块
 - 排序由 `Stages` enum 保证
 - Pipeline cache 允许跳过已完成的 transform
+
+
+---
+**下一节：[`09 — Transform 基类与注册机制`](../stage2-pipeline/09-interface.md)**

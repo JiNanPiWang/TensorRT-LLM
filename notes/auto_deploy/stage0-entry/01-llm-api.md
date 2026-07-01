@@ -204,3 +204,7 @@ def generate_async(self, inputs, sampling_params=None, ...):
 | CUDA Graph 怎么 capture | 在 `PyExecutor`（Stage 1）的 `CudaGraphRunner` 里 |
 | attention 怎么优化 | Stage 6 的 attention fusion（`fuse_rope_into_trtllm_attention`） |
 | AI 编译器怎么做图变换 | Stage 4 的 `BaseTransform` + `inserting_before()` placement |
+
+
+---
+**下一节：[`02 — 配置 Schema`](../stage0-entry/02-llm-args.md)**

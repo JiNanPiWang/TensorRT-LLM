@@ -135,3 +135,7 @@ create_autodeploy_executor(ad_config)
 - **ADEngine = PyExecutor 的 ModelEngine 接口** + **InferenceOptimizer（transform pipeline）** + **CachedSequenceInterface（KV cache 管理）**
 - Transform pipeline 在第一次 forward 时懒加载触发，不是 init 时
 - `InferenceOptimizer(factory, config=ad_config.transforms)` 中的 `ad_config.transforms` 来自 `default.yaml` + 用户自定义覆盖
+
+
+---
+**下一节：[`11 — 图导出`](../stage3-export/11-export.md)**

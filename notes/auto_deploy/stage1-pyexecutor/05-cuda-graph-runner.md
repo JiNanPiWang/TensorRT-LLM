@@ -89,3 +89,7 @@ Replay 时根据实际 batch 找最近的大 key（padding 到 capture 的 batch
 AutoDeploy 的 `compile_backend="torch-cudagraph"` → 在模型编译后仍然使用相同的 CUDA Graph 机制。**编译后端决定的是"模型内部怎么跑"，CUDA Graph 决定的是"kernel launch 怎么录"，两者正交。**
 
 torch.compile 可以在 capture 的 CUDA Graph 内部，也可以在外部——关键是 CUDA Graph capture 发生在 torch.compile warmup 之后。
+
+
+---
+**下一节：[`06 — KV Cache 管理`](../stage1-pyexecutor/06-kv-cache-manager.md)**

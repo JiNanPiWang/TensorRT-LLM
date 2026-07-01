@@ -165,3 +165,7 @@ class TransformInfo:
 
 **`__or__`**（cleanup 后更新）：如果当前 clean 或之前 clean，就标为 clean。
 **`__and__`**（apply 后合并）：两人都 clean 才 clean，取 min(num_matches)。
+
+
+---
+**下一节：[`10 — AutoDeploy 执行引擎`](../stage2-pipeline/10-ad-executor.md)**

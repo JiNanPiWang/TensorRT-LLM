@@ -96,3 +96,7 @@ class TestFuseSiluMul:
 | 数值对拍 | `torch.allclose(original_output, fused_output)` | 确保融合不改变数值 |
 | Shape 验证 | `node.meta["val"].shape` | 确保 shape 信息传播正确 |
 | 端到端 | integration test with real model | 完整推理 + 精度对比 |
+
+
+---
+**已到最后一节。返回 [README](../README.md) 查看全貌。**

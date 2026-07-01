@@ -71,3 +71,7 @@ insert_cached_residual_add:     # Residual Add cache
 ```
 
 每种 attention 类型有不同的 cached 实现。
+
+
+---
+**下一节：[`20 — Sharding 自动分片`](../stage6-topics/20-sharding.md)**

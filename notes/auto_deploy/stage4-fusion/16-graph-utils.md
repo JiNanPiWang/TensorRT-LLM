@@ -85,3 +85,7 @@ graph_writer.dump_graph(mod, t_name="fuse_silu_mul", stage="post_load_fusion")
 ```
 
 在 `BaseTransform.__call__` 的 line 508 调用，每个 transform 执行后自动 dump 图。用于 debug 时查看每个 transform 前后的图变化。
+
+
+---
+**下一节：[`17 — 编译后端`](../stage5-compile/17-torch-compile-backend.md)**

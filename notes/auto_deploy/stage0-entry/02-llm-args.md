@@ -134,3 +134,7 @@ Pydantic 的 `model_validator` 按声明顺序执行。AutoDeploy `LlmArgs` 的�
 - **`TorchLlmArgs`** 加了 PyTorch 专属参数（CUDA Graph、attention 后端）
 - **AutoDeploy `LlmArgs`** 继承 `TorchLlmArgs`，加了 `transforms` + `compile_backend` + `world_size`，禁用了手动并行配置
 - **`extra="forbid"`** 保证参数拼写错误立即报错
+
+
+---
+**下一节：[`03 — 运行时引擎`](../stage0-entry/03-py-executor.md)**

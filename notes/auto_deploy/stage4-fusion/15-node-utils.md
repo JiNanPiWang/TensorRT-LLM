@@ -96,3 +96,7 @@ fused_node.meta["val"] = torch.empty(
 ```
 
 **关键**：`meta["val"]` 必须在创建新节点时手动设置。如果缺失，下游的 shape-dependent transform 会失败。
+
+
+---
+**下一节：[`16 — 图操作工具箱`](../stage4-fusion/16-graph-utils.md)**

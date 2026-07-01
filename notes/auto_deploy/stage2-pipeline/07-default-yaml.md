@@ -95,3 +95,7 @@ fuse_my_new_op:
 ```
 
 然后在代码中创建对应的 `BaseTransform` 子类并用 `TransformRegistry.register("fuse_my_new_op")` 注册。
+
+
+---
+**下一节：[`08 — Transform 管线驱动器`](../stage2-pipeline/08-optimizer.md)**
